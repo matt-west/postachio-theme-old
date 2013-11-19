@@ -101,12 +101,13 @@
         <a class="toggle-nav" href="#">Show Navigation</a>
         <nav>
             <ul class="nav">
-                <li><a href="/">Blog</a></li>    
+                <li><a href="/">Blog</a></li>
                 {% if pages %}
                     {% for page in pages %}
                         <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
                     {% endfor %}
                 {% endif %}
+                <li><a href="http://blog.teamtreehouse.com/author/mattwest" target="_blank">Treehouse Posts</a></li>
                 <li><a href="http://mattwest.io" target="_blank">mattwest.io</a></li>
             </ul>
         </nav>
