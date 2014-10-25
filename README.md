@@ -1,3 +1,1 @@
-# Postach.io Theme
-
-The theme used for blog.mattwest.io
+For the theme that's currently used on my website check out: [matt-west/poctachio-theme](https://github.com/matt-west/poctachio-theme)
